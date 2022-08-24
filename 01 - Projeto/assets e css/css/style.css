@@ -1,0 +1,58 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .container > div {
+    background-color: #FAF7FD;
+    width: 500px;
+    margin: 10px;
+    line-height: 55px;
+    font-size: 20px;
+    margin-left: 430px;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid #BB99DD;
+    box-shadow: 5px 5px 15px #BB99DD;
+  }   
+
+  body {
+    text-align: center;
+    color: black;
+
+  }
+
+  .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 0px solid #BB99DD;
+    box-shadow: 2px 3px 10px #BB99DD;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FAF7FD;
+    
+  }
+
+  .tamanho {
+    width: 30px;
+    right: 30px;
+    padding: 15px;
+  }
+
+  div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+  
+  footer{
+    margin-left: 35px;
+  }
